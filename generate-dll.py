@@ -1,7 +1,7 @@
 import os
 template = """
 // Tested in Win10
-// x86_64-w64-mingw32-g++ dllmsgbox.c -o WINSTA.dll -shared
+// x86_64-w64-mingw32-g++ dllmsgbox.cpp -o WINSTA.dll -shared
 #include <windows.h>
 BOOL WINAPI DllMain (HANDLE hDll, DWORD dwReason, LPVOID lpReserved){
     switch(dwReason){
