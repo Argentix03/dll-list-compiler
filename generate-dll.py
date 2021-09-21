@@ -1,6 +1,6 @@
 import os
 template = """
-// Tested in Win10
+// for x86_64 Windows 10
 // x86_64-w64-mingw32-g++ dllmsgbox.cpp -o WINSTA.dll -shared
 #include <windows.h>
 BOOL WINAPI DllMain (HANDLE hDll, DWORD dwReason, LPVOID lpReserved){
